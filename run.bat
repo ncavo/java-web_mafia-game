@@ -1,0 +1,1 @@
+java -Dfile.encoding=utf8 -cp org.apache.httpcomponents.httpcore_4.3.2.jar;bin MafiaGameWeb

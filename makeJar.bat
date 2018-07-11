@@ -1,0 +1,2 @@
+javac -encoding utf8 -Xlint:unchecked -cp xmlsec-2.0.jar;org.apache.httpcomponents.httpcore_4.3.2.jar;src -sourcepath src -d bin src\MafiaGameWeb.java
+jar cvfm MafiaGameWeb.jar Manifest.txt -C bin\ . org
